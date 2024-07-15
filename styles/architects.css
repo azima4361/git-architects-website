@@ -147,6 +147,30 @@ font-weight: 500;
 .sponser-companies{
     filter: grayscale(100%);
 }
+/* feature section  */
+.features{
+    gap: 100px;
+}
+
+#feature-section-border{
+    border-left: 5px solid #FF900E;
+    padding: 20px;
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
 /* responsive media query */
 @media  screen and (max-width:576px) {
     .navbar,.nav-links , .teams{
